@@ -1,4 +1,4 @@
 package com.yyc.entity;
 
-public class EEEEE {
+public class WWW {
 }
