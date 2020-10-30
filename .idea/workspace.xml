@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09fa81f0-f605-43cb-ab8a-4bf2b98ea6d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyc/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yyc/entity/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yyc/entity/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,8 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -53,14 +51,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/yyc/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#81#82#0" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyc/entity/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/yyc/TestRedisTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yyc/TestBoundApi.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yyc/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyc/entity/Test.java" />
       </list>
     </option>
   </component>
@@ -191,6 +203,16 @@
               <item name="redis_springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yyc" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redis_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,7 +281,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBoundApi.testBound">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yyc.entity.Test" />
+      <module name="redis_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyc.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AA.TestKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="redis_springboot" />
       <extension name="coverage">
@@ -324,22 +359,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringRedisTemplate.TestZset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="redis_springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yyc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yyc" />
-      <option name="MAIN_CLASS_NAME" value="com.yyc.TestStringRedisTemplate" />
-      <option name="METHOD_NAME" value="TestZset" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.yyc in redis_springboot" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="redis_springboot" />
       <extension name="coverage">
@@ -366,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.TestBoundApi.testBound" />
         <item itemvalue="JUnit.TestRedisTemplate.testRedisTemplate" />
         <item itemvalue="JUnit.AA.TestKey" />
         <item itemvalue="JUnit.TestStringRedisTemplate.TestHash" />
-        <item itemvalue="JUnit.TestStringRedisTemplate.TestZset" />
       </list>
     </recent_temporary>
   </component>
@@ -386,8 +405,23 @@
       <updated>1602428891289</updated>
       <workItem from="1602428896678" duration="15450000" />
       <workItem from="1602571265756" duration="1410000" />
-      <workItem from="1604041392007" duration="520000" />
+      <workItem from="1604041392007" duration="1169000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1604041926025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604041926025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试测试">
+      <created>1604042124680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604042124680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -423,7 +457,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17380000" />
+    <option name="totallyTimeSpent" value="18029000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,7 +472,7 @@
     <frame x="257" y="106" width="1512" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21157822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21157822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -452,7 +486,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32853404" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32984293" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -460,7 +494,7 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -476,6 +510,37 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <MESSAGE value="测试测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
@@ -616,11 +681,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yyc/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#81#82#0" expanded="true" />
             <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyc/entity/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
